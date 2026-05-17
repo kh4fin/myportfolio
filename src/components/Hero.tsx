@@ -1,5 +1,6 @@
-import { ChevronRight } from 'lucide-react';
+import { ChevronRight, Download } from 'lucide-react';
 import khafidPhoto from '../assets/khafid.png';
+import cvPdf from '../assets/CV_ATS_MUHAMMAD_ABDUL_KHAFID_1.pdf';
 
 export default function Hero() {
   return (
@@ -18,11 +19,14 @@ export default function Hero() {
             Hello, I'm <br/><span className="text-gradient">Muhammad Abdul Khafid</span>
           </h1>
           <p className="hero-subtitle">
-            With over 2 years of experience in web development, I specialize in building responsive, user-friendly websites and applications from front to back. My passion is turning complex problems into simple, elegant solutions.
+            A Software Developer and Informatics student specializing in full-stack development and Computer Vision. I build scalable applications and turn complex R&D challenges into elegant, user-centric solutions.
           </p>
           <div className="hero-actions">
             <a href="#projects" className="btn btn-primary">
               View My Work <ChevronRight size={20} />
+            </a>
+            <a href={cvPdf} download="CV_ATS_MUHAMMAD_ABDUL_KHAFID_1.pdf" className="btn btn-secondary glass">
+              <Download size={20} /> Download CV
             </a>
             <a href="#contact" className="btn btn-secondary glass">
               Contact Me

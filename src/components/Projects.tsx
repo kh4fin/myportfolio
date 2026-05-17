@@ -4,6 +4,7 @@ import p2 from "../assets/projects/p2.png";
 import p3 from "../assets/projects/p3.png";
 import p7 from "../assets/projects/p7.png";
 import p8 from "../assets/projects/p8.png";
+import p9 from "../assets/projects/p9.png";
 
 export default function Projects() {
   const projects = [
@@ -51,6 +52,15 @@ export default function Projects() {
       tags: ["HTML", "CSS", "JS"],
       demoLink: "#",
       repoLink: "#",
+    },
+    {
+      title: "NusaBatik",
+      description:
+        "A premium full-stack e-commerce platform dedicated to showcasing and selling Indonesian Batik. Features a dynamic product catalog, custom brand and logo upload management for store branding, and a secure backend powered by Express and MongoDB.",
+      image: p9,
+      tags: ["React", "Node.js", "Express", "MongoDB"],
+      demoLink: "#",
+      repoLink: "https://github.com/kh4fin",
     },
   ];
 
